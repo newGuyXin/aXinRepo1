@@ -1,0 +1,1072 @@
+2020-06-23 15:54:03.885 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 15592 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 15:54:03.889 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 15:54:03.890 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 15:54:04.707 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:184 - Searching for mappers annotated with @Mapper
+2020-06-23 15:54:04.720 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:196 - Using auto-configuration base package 'hc.test.web'
+2020-06-23 15:54:04.735 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[hc.test.web]' package. Please check your configuration.
+2020-06-23 15:54:05.415 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 15:54:05.432 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 15:54:05.442 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 15:54:05.443 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 15:54:05.592 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 15:54:05.592 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1649 ms
+2020-06-23 15:54:05.702 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'hc.test.web.service.IConferenceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-06-23 15:54:05.707 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 15:54:05.740 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 15:54:05.898 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field conferenceService in hc.test.web.controller.demo.ConferenceController required a bean of type 'hc.test.web.service.IConferenceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'hc.test.web.service.IConferenceService' in your configuration.
+
+2020-06-23 15:58:28.418 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 10348 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 15:58:28.454 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 15:58:28.455 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 15:58:29.152 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:184 - Searching for mappers annotated with @Mapper
+2020-06-23 15:58:29.163 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:196 - Using auto-configuration base package 'hc.test.web'
+2020-06-23 15:58:29.174 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[hc.test.web]' package. Please check your configuration.
+2020-06-23 15:58:29.841 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 15:58:29.858 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 15:58:29.869 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 15:58:29.870 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 15:58:30.022 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 15:58:30.022 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1502 ms
+2020-06-23 15:58:30.123 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'hc.test.web.service.demo.IConferenceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-06-23 15:58:30.127 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 15:58:30.154 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 15:58:30.283 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field conferenceService in hc.test.web.controller.demo.ConferenceController required a bean of type 'hc.test.web.service.demo.IConferenceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'hc.test.web.service.demo.IConferenceService' in your configuration.
+
+2020-06-23 16:00:34.818 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 10088 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:00:34.824 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:00:34.824 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:00:35.382 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]
+2020-06-23 16:00:35.382 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:00:35.382 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:00:36.194 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:00:36.211 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:00:36.222 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:00:36.223 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:00:36.370 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:00:36.371 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1470 ms
+2020-06-23 16:00:36.468 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'hc.test.web.service.demo.IConferenceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-06-23 16:00:36.472 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 16:00:36.497 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 16:00:36.621 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field conferenceService in hc.test.web.controller.demo.ConferenceController required a bean of type 'hc.test.web.service.demo.IConferenceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'hc.test.web.service.demo.IConferenceService' in your configuration.
+
+2020-06-23 16:01:19.524 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 9004 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:01:19.529 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:01:19.529 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:01:20.079 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]
+2020-06-23 16:01:20.079 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:01:20.080 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:01:20.891 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:01:20.908 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:01:20.919 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:01:20.919 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:01:21.059 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:01:21.059 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1475 ms
+2020-06-23 16:01:21.157 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'hc.test.web.service.demo.IConferenceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-06-23 16:01:21.161 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 16:01:21.185 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 16:01:21.313 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field conferenceService in hc.test.web.controller.demo.ConferenceController required a bean of type 'hc.test.web.service.demo.IConferenceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'hc.test.web.service.demo.IConferenceService' in your configuration.
+
+2020-06-23 16:02:59.893 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 11016 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:02:59.898 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:02:59.898 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:03:00.483 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]
+2020-06-23 16:03:00.483 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:03:00.484 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:03:01.283 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:03:01.301 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:03:01.313 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:03:01.313 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:03:01.477 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:03:01.477 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1479 ms
+2020-06-23 16:03:01.601 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 16:03:01.913 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 16:03:01.933 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 16:03:02.009 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 16:03:02.011 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 16:03:02.011 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 16:03:02.012 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 16:03:02.013 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 16:03:02.015 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 16:03:02.015 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 16:03:02.016 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 16:03:02.017 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 16:03:02.060 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 16:03:02.077 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+2020-06-23 16:03:02.084 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed
+2020-06-23 16:03:02.088 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 16:03:02.100 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 16:03:02.114 ERROR org.springframework.boot.SpringApplication Line:823 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at hc.test.web.ConferenceApplication.main(ConferenceApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1500)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 56 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e74c4eab.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e74c4eab$$FastClassBySpringCGLIB$$8680e6e1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e74c4eab.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 57 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\IConferenceDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 70 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 72 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 76 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 78 common frames omitted
+2020-06-23 16:04:44.797 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 5384 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:04:44.801 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:04:44.801 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:04:45.332 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 16:04:45.332 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:04:45.332 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:04:46.118 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:04:46.135 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:04:46.145 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:04:46.145 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:04:46.287 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:04:46.288 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1416 ms
+2020-06-23 16:04:46.410 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 16:04:46.722 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 16:04:46.744 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 16:04:46.820 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 16:04:46.823 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 16:04:46.823 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 16:04:46.824 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 16:04:46.825 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 16:04:46.827 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 16:04:46.827 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 16:04:46.828 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 16:04:46.828 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 16:04:46.875 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 16:04:46.876 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 16:04:46.899 ERROR org.mybatis.spring.mapper.MapperFactoryBean Line:82  - Error while adding the mapper 'interface hc.test.web.dao.demo.IConferenceDao' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at hc.test.web.ConferenceApplication.main(ConferenceApplication.java:14)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 51 common frames omitted
+2020-06-23 16:04:46.904 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+2020-06-23 16:04:46.911 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed
+2020-06-23 16:04:46.916 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 16:04:46.928 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 16:04:47.008 ERROR org.springframework.boot.SpringApplication Line:823 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at hc.test.web.ConferenceApplication.main(ConferenceApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 32 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 42 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	... 45 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'hc.test.web.dao.demo.IConferenceDao' but found 'hc.test.web.dao.demo.IPersonDao'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 51 common frames omitted
+2020-06-23 16:05:36.132 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 940 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:05:36.137 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:05:36.137 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:05:36.670 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 16:05:36.670 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:05:36.671 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:05:37.462 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:05:37.479 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:05:37.489 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:05:37.489 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:05:37.631 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:05:37.632 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1435 ms
+2020-06-23 16:05:37.750 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 16:05:38.084 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 16:05:38.108 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 16:05:38.187 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 16:05:38.189 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 16:05:38.189 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 16:05:38.190 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 16:05:38.191 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 16:05:38.193 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 16:05:38.193 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 16:05:38.194 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 16:05:38.195 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 16:05:38.245 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 16:05:38.246 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 16:05:38.275 ERROR org.mybatis.spring.mapper.MapperFactoryBean Line:82  - Error while adding the mapper 'interface hc.test.web.dao.demo.IConferenceDao' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at hc.test.web.ConferenceApplication.main(ConferenceApplication.java:14)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 51 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 55 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 57 common frames omitted
+2020-06-23 16:05:38.283 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+2020-06-23 16:05:38.290 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed
+2020-06-23 16:05:38.295 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-06-23 16:05:38.313 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-23 16:05:38.397 ERROR org.springframework.boot.SpringApplication Line:823 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'conferenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at hc.test.web.ConferenceApplication.main(ConferenceApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceServiceImpl': Unsatisfied dependency expressed through field 'conferenceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IConferenceDao' defined in file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 32 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 42 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'hc/test/web/dao/demo/IConferenceDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	... 45 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 51 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'conferenceMap'.  Cause: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 55 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: conferenceMap
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 57 common frames omitted
+2020-06-23 16:07:38.644 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 6500 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:07:38.649 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:07:38.650 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:07:39.168 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 16:07:39.169 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:07:39.169 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:07:39.952 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:07:39.970 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:07:39.981 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:07:39.982 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:07:40.124 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:07:40.125 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1419 ms
+2020-06-23 16:07:40.248 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 16:07:40.568 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 16:07:40.591 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 16:07:40.670 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 16:07:40.673 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 16:07:40.673 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 16:07:40.674 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 16:07:40.674 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 16:07:40.676 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 16:07:40.676 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 16:07:40.677 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 16:07:40.678 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 16:07:40.724 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 16:07:40.725 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 16:07:41.043 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 16:07:41.336 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:07:41.366 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8082 (http) with context path '/hctest'
+2020-06-23 16:07:41.370 INFO  hc.test.web.ConferenceApplication Line:59  - Started ConferenceApplication in 3.628 seconds (JVM running for 5.354)
+2020-06-23 16:09:48.854 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 16:09:48.855 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-06-23 16:09:48.865 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 10 ms
+2020-06-23 16:09:49.024 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:09:49.033 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556]
+2020-06-23 16:09:49.135 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@71133072] will be managed by Spring
+2020-06-23 16:09:49.154 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:09:49.188 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 101(Integer)
+2020-06-23 16:09:49.226 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:09:49.229 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20000} enter cache
+2020-06-23 16:09:49.230 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556]
+2020-06-23 16:09:49.232 DEBUG org.mybatis.spring.SqlSessionUtils Line:163 - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556] from current transaction
+2020-06-23 16:09:49.232 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==>  Preparing: insert into t_conference (id,name,code,remark) values (?,?,?,?) 
+2020-06-23 16:09:49.234 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==> Parameters: EE5F50EE9241466A8406845C4248E254(String), test(String), 101(Integer), 描述1(String)
+2020-06-23 16:09:49.258 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:160 - {conn-10001, pstmt-20001} exit cache
+2020-06-23 16:09:49.260 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556]
+2020-06-23 16:09:49.313 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556]
+2020-06-23 16:09:49.313 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c236556]
+2020-06-23 16:09:49.325 ERROR hc.test.web.controller.demo.ConferenceController Line:46  - 系统异常
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'remark' in 'field list'
+### The error may involve hc.test.web.dao.demo.IConferenceDao.saveConference-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_conference (id,name,code,remark) values (?,?,?,?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'remark' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'remark' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy55.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.saveConference(Unknown Source)
+	at hc.test.web.service.impl.demo.ConferenceServiceImpl.saveConference(ConferenceServiceImpl.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy63.saveConference(Unknown Source)
+	at hc.test.web.controller.demo.ConferenceController.saveConference(ConferenceController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'remark' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3051)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy75.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy73.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 76 common frames omitted
+2020-06-23 16:10:54.760 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 8780 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 16:10:54.764 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 16:10:54.765 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 16:10:55.282 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 16:10:55.283 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 16:10:55.283 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 16:10:56.071 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 16:10:56.089 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:10:56.099 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 16:10:56.099 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 16:10:56.243 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 16:10:56.243 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1423 ms
+2020-06-23 16:10:56.368 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 16:10:56.682 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 16:10:56.704 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 16:10:56.782 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 16:10:56.785 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 16:10:56.786 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 16:10:56.787 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 16:10:56.788 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 16:10:56.790 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 16:10:56.790 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 16:10:56.791 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 16:10:56.792 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 16:10:56.838 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 16:10:56.840 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 16:10:57.162 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 16:10:57.459 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8082"]
+2020-06-23 16:10:57.489 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8082 (http) with context path '/hctest'
+2020-06-23 16:10:57.493 INFO  hc.test.web.ConferenceApplication Line:59  - Started ConferenceApplication in 3.761 seconds (JVM running for 5.249)
+2020-06-23 16:11:06.118 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 16:11:06.119 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-06-23 16:11:06.130 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 11 ms
+2020-06-23 16:11:06.280 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:11:06.290 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:06.389 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:11:06.393 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:11:06.446 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 101(Integer)
+2020-06-23 16:11:06.482 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:11:06.484 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20000} enter cache
+2020-06-23 16:11:06.486 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:06.488 DEBUG org.mybatis.spring.SqlSessionUtils Line:163 - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48] from current transaction
+2020-06-23 16:11:06.489 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==>  Preparing: insert into t_conference (id,name,code,remark) values (?,?,?,?) 
+2020-06-23 16:11:06.491 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==> Parameters: AEAB14C5C92947B2A519062A4989E685(String), test(String), 101(Integer), 描述1(String)
+2020-06-23 16:11:06.495 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - <==    Updates: 1
+2020-06-23 16:11:06.496 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20001} enter cache
+2020-06-23 16:11:06.497 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:06.497 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:06.498 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:06.498 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88cd48]
+2020-06-23 16:11:39.897 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:11:39.898 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:39.900 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:11:39.901 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:11:39.901 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 202(Integer)
+2020-06-23 16:11:39.904 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:11:39.904 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:39.905 DEBUG org.mybatis.spring.SqlSessionUtils Line:163 - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809] from current transaction
+2020-06-23 16:11:39.905 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==>  Preparing: insert into t_conference (id,name,code,remark) values (?,?,?,?) 
+2020-06-23 16:11:39.907 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==> Parameters: 81EC9012B07B4BA390BC0F81514A38E3(String), test1(String), 202(Integer), 描述1(String)
+2020-06-23 16:11:39.911 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - <==    Updates: 1
+2020-06-23 16:11:39.912 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:39.913 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:39.913 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:39.913 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4af9a809]
+2020-06-23 16:11:46.760 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:11:46.761 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7656bcf8]
+2020-06-23 16:11:46.762 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:11:46.763 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:11:46.764 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 202(Integer)
+2020-06-23 16:11:46.768 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:11:46.768 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - ==>  Preparing: select * from t_conference WHERE code = ? 
+2020-06-23 16:11:46.769 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - ==> Parameters: 202(Integer)
+2020-06-23 16:11:46.772 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - <==      Total: 1
+2020-06-23 16:11:46.773 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20002} enter cache
+2020-06-23 16:11:46.773 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7656bcf8]
+2020-06-23 16:11:46.774 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7656bcf8]
+2020-06-23 16:11:46.774 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7656bcf8]
+2020-06-23 16:11:46.774 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7656bcf8]
+2020-06-23 16:12:19.555 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:12:19.555 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:12:19.557 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:12:19.557 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:12:19.558 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 303(Integer)
+2020-06-23 16:12:19.560 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:12:19.561 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:12:19.561 DEBUG org.mybatis.spring.SqlSessionUtils Line:163 - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe] from current transaction
+2020-06-23 16:12:19.561 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==>  Preparing: insert into t_conference (id,name,code,remark) values (?,?,?,?) 
+2020-06-23 16:12:19.562 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - ==> Parameters: B5E2D749C7C24915B7555112C872641E(String), test2(String), 303(Integer), 描述1(String)
+2020-06-23 16:12:19.566 DEBUG hc.test.web.dao.demo.IConferenceDao.saveConference Line:159 - <==    Updates: 1
+2020-06-23 16:12:19.567 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:12:19.568 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:12:19.568 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:12:19.568 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343507fe]
+2020-06-23 16:14:10.342 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:14:10.343 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:10.344 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:14:10.344 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:14:10.344 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 404(Integer)
+2020-06-23 16:14:10.346 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:14:10.347 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:10.348 DEBUG org.mybatis.spring.SqlSessionUtils Line:163 - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20] from current transaction
+2020-06-23 16:14:10.349 DEBUG hc.test.web.dao.demo.IConferenceDao.updateConference Line:159 - ==>  Preparing: update t_conference set name = ?, code = ?, remark = ?, id = ? where id = ? 
+2020-06-23 16:14:10.350 DEBUG hc.test.web.dao.demo.IConferenceDao.updateConference Line:159 - ==> Parameters: test2(String), 404(Integer), 描述2(String), B5E2D749C7C24915B7555112C872641E(String), B5E2D749C7C24915B7555112C872641E(String)
+2020-06-23 16:14:10.355 DEBUG hc.test.web.dao.demo.IConferenceDao.updateConference Line:159 - <==    Updates: 1
+2020-06-23 16:14:10.355 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20003} enter cache
+2020-06-23 16:14:10.356 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:10.356 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:10.356 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:10.356 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a52ff20]
+2020-06-23 16:14:42.406 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:14:42.406 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74a5f853]
+2020-06-23 16:14:42.407 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:14:42.408 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE code = ? 
+2020-06-23 16:14:42.408 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - ==> Parameters: 404(Integer)
+2020-06-23 16:14:42.410 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference_COUNT Line:159 - <==      Total: 1
+2020-06-23 16:14:42.411 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - ==>  Preparing: select * from t_conference WHERE code = ? 
+2020-06-23 16:14:42.412 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - ==> Parameters: 404(Integer)
+2020-06-23 16:14:42.414 DEBUG hc.test.web.dao.demo.IConferenceDao.findByConference Line:159 - <==      Total: 1
+2020-06-23 16:14:42.415 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74a5f853]
+2020-06-23 16:14:42.416 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74a5f853]
+2020-06-23 16:14:42.416 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74a5f853]
+2020-06-23 16:14:42.416 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74a5f853]
+2020-06-23 16:15:29.161 WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Line:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-23 16:15:39.574 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 16:15:39.575 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281de4ea]
+2020-06-23 16:15:39.575 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@37ac8f86] will be managed by Spring
+2020-06-23 16:15:39.576 DEBUG hc.test.web.dao.demo.IConferenceDao.deleteConference Line:159 - ==>  Preparing: delete from t_conference where id = ? 
+2020-06-23 16:15:39.577 DEBUG hc.test.web.dao.demo.IConferenceDao.deleteConference Line:159 - ==> Parameters: B5E2D749C7C24915B7555112C872641E(String)
+2020-06-23 16:15:39.581 DEBUG hc.test.web.dao.demo.IConferenceDao.deleteConference Line:159 - <==    Updates: 1
+2020-06-23 16:15:39.582 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20004} enter cache
+2020-06-23 16:15:39.583 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281de4ea]
+2020-06-23 16:15:39.583 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281de4ea]
+2020-06-23 16:15:39.584 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281de4ea]
+2020-06-23 16:15:39.584 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@281de4ea]
+2020-06-23 17:00:36.341 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 9496 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 17:00:36.347 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 17:00:36.347 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 17:00:36.860 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 17:00:36.860 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 17:00:36.861 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 17:00:37.658 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 17:00:37.675 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 17:00:37.686 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 17:00:37.687 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 17:00:37.833 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 17:00:37.834 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1432 ms
+2020-06-23 17:00:37.958 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 17:00:38.267 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 17:00:38.290 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 17:00:38.367 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 17:00:38.370 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 17:00:38.370 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 17:00:38.371 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 17:00:38.371 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 17:00:38.374 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 17:00:38.374 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 17:00:38.374 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 17:00:38.374 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 17:00:38.421 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 17:00:38.422 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 17:00:38.746 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 17:00:39.048 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8082"]
+2020-06-23 17:00:39.079 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8082 (http) with context path '/hctest'
+2020-06-23 17:00:39.083 INFO  hc.test.web.ConferenceApplication Line:59  - Started ConferenceApplication in 3.713 seconds (JVM running for 5.193)
+2020-06-23 17:01:47.663 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 17:01:47.664 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-06-23 17:01:47.673 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 8 ms
+2020-06-23 17:01:47.714 WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Line:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-06-23 17:19:16.836 INFO  hc.test.web.ConferenceApplication Line:50  - Starting ConferenceApplication on DESKTOP-MLO7J1Q with PID 8208 (E:\ideaIU_project\hcConference\target\classes started by 没有名字 in E:\ideaIU_project\hcConference)
+2020-06-23 17:19:16.840 DEBUG hc.test.web.ConferenceApplication Line:53  - Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-06-23 17:19:16.841 INFO  hc.test.web.ConferenceApplication Line:652 - The following profiles are active: dev
+2020-06-23 17:19:17.391 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:437 - Identified candidate component class: file [E:\ideaIU_project\hcConference\target\classes\hc\test\web\dao\demo\IConferenceDao.class]
+2020-06-23 17:19:17.392 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:180 - Creating MapperFactoryBean with name 'IConferenceDao' and 'hc.test.web.dao.demo.IConferenceDao' mapperInterface
+2020-06-23 17:19:17.392 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:216 - Enabling autowire by type for MapperFactoryBean with name 'IConferenceDao'.
+2020-06-23 17:19:18.206 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8082 (http)
+2020-06-23 17:19:18.223 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2020-06-23 17:19:18.234 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-06-23 17:19:18.234 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-06-23 17:19:18.384 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-06-23 17:19:18.385 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1479 ms
+2020-06-23 17:19:18.509 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-06-23 17:19:18.828 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+2020-06-23 17:19:18.852 DEBUG org.apache.ibatis.logging.LogFactory Line:135 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-06-23 17:19:18.932 DEBUG org.apache.ibatis.io.VFS Line:77  - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2020-06-23 17:19:18.936 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.base.BaseEntity matches criteria [is assignable to Object]
+2020-06-23 17:19:18.936 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.User matches criteria [is assignable to Object]
+2020-06-23 17:19:18.937 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.entity.demo.TConference matches criteria [is assignable to Object]
+2020-06-23 17:19:18.937 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.entity' for aliases
+2020-06-23 17:19:18.939 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.AjaxJson matches criteria [is assignable to Object]
+2020-06-23 17:19:18.940 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.base.PageModel matches criteria [is assignable to Object]
+2020-06-23 17:19:18.940 DEBUG org.apache.ibatis.io.ResolverUtil Line:256 - Checking to see if class hc.test.web.model.demo.Conference matches criteria [is assignable to Object]
+2020-06-23 17:19:18.940 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:437 - Scanned package: 'hc.test.web.model' for aliases
+2020-06-23 17:19:18.990 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:497 - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-23 17:19:18.991 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:534 - Property 'mapperLocations' was not specified or no matching resources found
+2020-06-23 17:19:19.313 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 17:19:19.613 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8082"]
+2020-06-23 17:19:19.644 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8082 (http) with context path '/hctest'
+2020-06-23 17:19:19.648 INFO  hc.test.web.ConferenceApplication Line:59  - Started ConferenceApplication in 3.764 seconds (JVM running for 5.288)
+2020-06-23 17:19:39.455 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/hctest] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 17:19:39.456 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-06-23 17:19:39.463 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 7 ms
+2020-06-23 17:20:04.967 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 17:20:04.977 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cc352a0]
+2020-06-23 17:20:05.091 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21b90039] will be managed by Spring
+2020-06-23 17:20:05.094 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE name LIKE ? 
+2020-06-23 17:20:05.131 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==> Parameters: %test%(String)
+2020-06-23 17:20:05.169 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - <==      Total: 1
+2020-06-23 17:20:05.172 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20000} enter cache
+2020-06-23 17:20:05.178 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==>  Preparing: SELECT * FROM t_conference WHERE name like ? LIMIT ? 
+2020-06-23 17:20:05.180 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==> Parameters: %test%(String), 1(Integer)
+2020-06-23 17:20:05.183 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - <==      Total: 1
+2020-06-23 17:20:05.184 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20001} enter cache
+2020-06-23 17:20:05.184 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cc352a0]
+2020-06-23 17:20:05.185 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cc352a0]
+2020-06-23 17:20:05.185 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cc352a0]
+2020-06-23 17:20:05.186 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cc352a0]
+2020-06-23 17:20:19.547 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 17:20:19.548 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a23330]
+2020-06-23 17:20:19.549 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21b90039] will be managed by Spring
+2020-06-23 17:20:19.549 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE name LIKE ? 
+2020-06-23 17:20:19.550 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==> Parameters: %test%(String)
+2020-06-23 17:20:19.553 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - <==      Total: 1
+2020-06-23 17:20:19.554 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==>  Preparing: SELECT * FROM t_conference WHERE name like ? LIMIT ?, ? 
+2020-06-23 17:20:19.555 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==> Parameters: %test%(String), 1(Integer), 1(Integer)
+2020-06-23 17:20:19.557 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - <==      Total: 1
+2020-06-23 17:20:19.558 DEBUG com.alibaba.druid.pool.PreparedStatementPool Line:129 - {conn-10001, pstmt-20002} enter cache
+2020-06-23 17:20:19.558 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a23330]
+2020-06-23 17:20:19.558 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a23330]
+2020-06-23 17:20:19.559 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a23330]
+2020-06-23 17:20:19.559 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a23330]
+2020-06-23 17:20:24.153 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 17:20:24.154 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad7026b]
+2020-06-23 17:20:24.156 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21b90039] will be managed by Spring
+2020-06-23 17:20:24.156 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE name LIKE ? 
+2020-06-23 17:20:24.157 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==> Parameters: %test%(String)
+2020-06-23 17:20:24.162 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - <==      Total: 1
+2020-06-23 17:20:24.164 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==>  Preparing: SELECT * FROM t_conference WHERE name like ? LIMIT ? 
+2020-06-23 17:20:24.164 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==> Parameters: %test%(String), 1(Integer)
+2020-06-23 17:20:24.167 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - <==      Total: 1
+2020-06-23 17:20:24.168 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad7026b]
+2020-06-23 17:20:24.168 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad7026b]
+2020-06-23 17:20:24.169 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad7026b]
+2020-06-23 17:20:24.169 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad7026b]
+2020-06-23 17:20:27.899 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 17:20:27.901 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bda63c9]
+2020-06-23 17:20:27.904 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21b90039] will be managed by Spring
+2020-06-23 17:20:27.905 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE name LIKE ? 
+2020-06-23 17:20:27.905 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==> Parameters: %test%(String)
+2020-06-23 17:20:27.908 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - <==      Total: 1
+2020-06-23 17:20:27.909 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==>  Preparing: SELECT * FROM t_conference WHERE name like ? LIMIT ? 
+2020-06-23 17:20:27.910 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==> Parameters: %test%(String), 2(Integer)
+2020-06-23 17:20:27.913 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - <==      Total: 2
+2020-06-23 17:20:27.914 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bda63c9]
+2020-06-23 17:20:27.914 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bda63c9]
+2020-06-23 17:20:27.914 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bda63c9]
+2020-06-23 17:20:27.914 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bda63c9]
+2020-06-23 17:20:52.838 DEBUG org.mybatis.spring.SqlSessionUtils Line:97  - Creating a new SqlSession
+2020-06-23 17:20:52.839 DEBUG org.mybatis.spring.SqlSessionUtils Line:128 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19031b1d]
+2020-06-23 17:20:52.840 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:87  - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21b90039] will be managed by Spring
+2020-06-23 17:20:52.841 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==>  Preparing: SELECT count(0) FROM t_conference WHERE name LIKE ? 
+2020-06-23 17:20:52.841 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - ==> Parameters: %test1%(String)
+2020-06-23 17:20:52.844 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll_COUNT Line:159 - <==      Total: 1
+2020-06-23 17:20:52.845 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==>  Preparing: SELECT * FROM t_conference WHERE name like ? LIMIT ? 
+2020-06-23 17:20:52.845 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - ==> Parameters: %test1%(String), 2(Integer)
+2020-06-23 17:20:52.848 DEBUG hc.test.web.dao.demo.IConferenceDao.pageAll Line:159 - <==      Total: 1
+2020-06-23 17:20:52.848 DEBUG org.mybatis.spring.SqlSessionUtils Line:186 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19031b1d]
+2020-06-23 17:20:52.849 DEBUG org.mybatis.spring.SqlSessionUtils Line:284 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19031b1d]
+2020-06-23 17:20:52.849 DEBUG org.mybatis.spring.SqlSessionUtils Line:310 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19031b1d]
+2020-06-23 17:20:52.849 DEBUG org.mybatis.spring.SqlSessionUtils Line:315 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19031b1d]

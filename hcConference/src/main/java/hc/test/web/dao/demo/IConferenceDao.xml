@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hc.test.web.dao.demo.IConferenceDao">
+    <resultMap id="conferenceMap" type="TConference">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="code" column="code"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+
+    <!--更新用户信息-->
+    <update id="updateConference" parameterType="TConference">
+        update t_conference c,t_apply a set
+        <if test="name != null and name !=''">
+            c.name = #{name},a.name = #{name},
+        </if>
+        <if test="code !=null and code !='' ">
+            c.code = #{code},a.code = #{code},
+        </if>
+        <if test="remark !=null and remark !='' ">
+            c.remark = #{remark},
+        </if>
+        c.id = #{id}
+        where  c.id = #{id} and c.id = a.cid
+    </update>
+
+    <!-- 根据用户传入的信息精确查询-->
+    <select id="findByConference" parameterType="Conference" resultMap="conferenceMap">
+        select * from t_conference
+        <where>
+            <if test="name != null and name !='' ">
+                 and name = #{name}
+            </if>
+            <if test="code != null and code !='' ">
+                and code = #{code}
+            </if>
+        </where>
+    </select>
+
+    <!-- 根据用户传入的信息模糊查询-->
+    <select id="pageAll" parameterType="Conference" resultMap="conferenceMap">
+        SELECT * FROM t_conference
+        <where>
+            <if test="name != null and name !='' ">
+                and name like #{name}
+            </if>
+            <if test="code != null and code != ''">
+                and code like #{code}
+            </if>
+        </where>
+        order by code asc
+    </select>
+</mapper>

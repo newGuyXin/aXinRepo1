@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hc.test.web.dao.demo.IApplyDao">
+    <resultMap id="applyMap" type="TApply">
+        <result property="title" column="title" />
+        <result property="name" column="name" />
+        <result property="user" column="user" />
+        <result property="startDate" column="startDate" />
+        <result property="endDate" column="endDate" />
+        <result property="participant" column="participant" />
+        <result property="remark" column="remark" />
+        <result property="status" column="status" />
+    </resultMap>
+
+    <!--更新用户申请列表 -->
+    <update id="updateApply" parameterType="TApply">
+        update t_apply set
+            <if test="title != null and title != '' ">
+                title = #{title},
+            </if>
+            <if test="name != null and name != '' ">
+                name = #{name},
+            </if>
+            <if test="code != null and code != '' ">
+                code = #{code},
+            </if>
+            <if test="startDate != null  ">
+                startDate = #{startDate},
+            </if>
+            <if test="endDate != null  ">
+                endDate = #{endDate},
+            </if>
+            <if test="participant != null and participant != '' ">
+                participant = #{participant},
+            </if>
+            <if test="remark != null and remark != '' ">
+                remark = #{remark},
+            </if>id = #{id}
+            where id = #{id}
+    </update>
+
+    <!--根据传入字段模糊查询 -->
+    <select id="findApply" parameterType="Apply" resultMap="applyMap">
+        select a.id,a.title,c.name,c.code,a.user,a.startDate,a.endDate,a.participant,a.remark
+        from t_apply a, t_conference c
+        <where>
+            <if test="name != null and name != '' ">
+                and c.name like #{name}
+            </if>
+            <if test="code != null and code != '' ">
+                and c.code = #{code}
+            </if>
+            <if test="user != null and user != '' ">
+                and a.user like #{user}
+            </if>
+            <if test="title != null and title != '' ">
+                and a.title like #{title}
+            </if>
+            <if test="startDate != null and endDate != null ">
+                and
+                (a.startDate &lt;=  #{endDate} and a.endDate &gt;= #{startDate})
+            </if>
+            and a.state = 1 and c.code = a.code
+        </where>
+        order by a.startDate asc
+    </select>
+</mapper>
